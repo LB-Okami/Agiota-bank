@@ -412,7 +412,7 @@ programa
 					senao {
 						limiteEmprestimo = limiteEmprestimo - pedidoEmprestimo
 						saldo = saldo + pedidoEmprestimo
-						escreva("Parabéns, seu novo saldo é R$", saldo, " e o novo limite de empréstimo é R$", limiteEmprestimo)
+						escreva("Parabéns, seu novo saldo é R$", saldo, " e o novo limite de empréstimo é R$", limiteEmprestimo, "\n")
 						}
 					
 
@@ -451,7 +451,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 120; 
+ * @POSICAO-CURSOR = 11377; 
+ * @DOBRAMENTO-CODIGO = [96, 158, 227, 291, 423, 429, 435];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
